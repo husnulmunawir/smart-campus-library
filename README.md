@@ -3,6 +3,12 @@
 Prototype aplikasi peminjaman dan pengembalian buku perpustakaan kampus untuk UAS Rekayasa Perangkat Lunak.
 Dibangun dengan React + TypeScript + Vite + Tailwind CSS + Lucide React. Seluruh data disimpan di `localStorage`.
 
+**Demo online:** https://smart-campus-library-psi.vercel.app
+
+Repo GitHub sudah terhubung ke proyek Vercel, sehingga setiap push ke `main` otomatis di-deploy.
+Konfigurasi SPA (`vercel.json`) meneruskan semua rute ke `index.html` agar refresh pada halaman seperti
+`/katalog` tidak 404.
+
 ## Menjalankan aplikasi
 
 ```bash
